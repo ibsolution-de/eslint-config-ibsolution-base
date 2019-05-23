@@ -9,8 +9,8 @@
     "test": "npm run --silent tests-only"
   },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org:ibsolution_de/eslint-config-ibsolution-base.git"
+    "type": "https",
+    "url": "https://github.com/ibsolution-de/eslint-config-ibsolution-base.git"
   },
   "keywords": [
     "style guide",
