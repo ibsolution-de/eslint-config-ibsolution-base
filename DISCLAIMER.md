@@ -1,14 +1,4 @@
-# ESLint Base Rules
-
-Based on great work of airbnb
-
-## Add Base ruleset to project
-
-```
-npm install eslint-config-ibsolution-base eslint eslint-plugin-import
-```
-
-## DISCLAMER
+# DISCLAIMER
 
 The IBsolution GmbH Materials may include certain third party free or open source components ("FOSS Components"). You may have additional rights in such FOSS Components that are provided by the third party licensors of those components.
 
