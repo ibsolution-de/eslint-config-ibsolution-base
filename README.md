@@ -8,6 +8,45 @@ Based on great work of airbnb
 npm install eslint-config-ibsolution-base eslint eslint-plugin-import
 ```
 
+## Use in project
+
+Create ESLint settings file. Add "ibsolution-base" as extention to "extends" part.
+Example: .eslintrc
+
+```
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["import", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "esnext",
+    "esnext/style-guide",
+    "typescript",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "ibsolution-base",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
+
+```
+
 ## DISCLAMER
 
 The IBsolution GmbH Materials may include certain third party free or open source components ("FOSS Components"). You may have additional rights in such FOSS Components that are provided by the third party licensors of those components.
