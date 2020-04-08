@@ -5,7 +5,7 @@ Based on great work of airbnb
 ## Add Base ruleset to project
 
 ```
-npm install eslint-config-ibsolution-base eslint eslint-plugin-import
+npm install @ibsolution/eslint-config-ibsolution-base eslint eslint-plugin-import
 ```
 
 ## Use in project
@@ -24,7 +24,7 @@ Example: .eslintrc
     "typescript",
     "plugin:@typescript-eslint/recommended",
     "airbnb",
-    "ibsolution-base",
+    "@ibsolution/eslint-config-ibsolution-base",
     "prettier",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
